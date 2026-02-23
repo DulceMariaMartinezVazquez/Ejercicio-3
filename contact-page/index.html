@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+      <img src="resources/Logo.svg" alt="Logo Becv" class="logo" />
+    <main>
+      <section class="encabezado">
+        <h1>Interested in our business pricing?</h1>
+        <p>Fill out the form to view details and we'll contact you as soon as possible.</p>
+      </section>
+      <section class="formulario-contenedor">
+        <form>
+          <div class="fila">
+            <div class="campo">
+              <label for="nombre">Name</label>
+              <input type="text" id="nombre" placeholder="Ethan Johnson" />
+            </div>
+            <div class="campo">
+              <label for="email">Company Email</label>
+              <input type="email" id="email" placeholder="ethan@johnson.com" />
+            </div>
+          </div>
+          <div class="fila">
+            <div class="campo">
+              <label for="tamano">Company Size</label>
+              <div class="select-contenedor">
+                <select id="tamano">
+                  <option>1-10 employees</option>
+                  <option>11-50 employees</option>
+                  <option selected>50-100 employees</option>
+                  <option>100+ employees</option>
+                </select>
+                <img src="resources/Expand_down.svg" alt="flecha" class="flecha-select" />
+              </div>
+            </div>
+            <div class="campo">
+              <label for="asunto">Subject</label>
+              <div class="select-contenedor">
+                <select id="asunto">
+                  <option>Building Landing pages</option>
+                  <option>E-commerce</option>
+                  <option>Web Application</option>
+                </select>
+                <img src="resources/Expand_down.svg" alt="flecha" class="flecha-select" />
+              </div>
+            </div>
+          </div>
+          <div class="campo campo-completo">
+            <label for="mensaje">Message</label>
+            <textarea id="mensaje" placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit">Contact Sales</button>
+        </form>
+      </section>
+    </main>
+    <div class="author-info">Coded by <a href="#">Dulce Maria Martinez Vazquez</a></div>
+  </body>
+</html>
