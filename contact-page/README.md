@@ -20,8 +20,8 @@ Se utilizan varias herramientas y campos para lograr un formulario completo.
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: 
-Deploy: 
+Repositorio en GitHub: https://github.com/DulceMariaMartinezVazquez/Ejercicio-3
+Deploy: https://dulcemariamartinezvazquez.github.io/Ejercicio-3/
 ---
 
 ## 📝 Reflexión
